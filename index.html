@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!--Tag que faz com que o navegador entenda os caracteres especiais. Ex: "ç"-->
+    <meta name="description" content="descrição da página..."> <!--Tag que adiciona uma descrição abaixo do título da página.-->
+
+    <title>Minha página web</title>
+</head>
+<body>
+    <!--TAG de Títulos e subtítulos-->
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <h3>Subtítulo</h3>
+    <h4>Subtítulo</h4>
+    <h5>Subtítulo</h5>
+    <h6>Subtítulo</h6>
+
+    <!--Tag de parágrafos-->
+    <p>tag que adiciona parágrafos</p>
+
+    <!--Tag de span-->
+    <span>mostra textos dentro do html, usado principalmente como legendas</span><br><br>
+
+    <!--Tag <b>, strong e <i>-->
+        <b>deixa a palavra ou texto em negrito</b><br><br>
+        <strong>deixa a palavra ou texto em negrito</strong><br><br>
+        <i>deixa a palavra ou texto em itálico</i><br>
+
+    <!--Tag br-->
+    <br>quebra uma linha <br/><br>
+
+    <!--Tag <div>-->
+        <div>
+            tag "div"
+            serve para agrupar trechos de codigo. Ex: criar divisões de codigo para melhor organização e manutenção
+        </div>
+        <div class="main"><!--divide a class main como se fosse um pacotes-->
+
+        </div>
+        <div class="footer"><!--divide a class footer como se fosse um pacote-->
+        </div>
+    <!--Tag listas-->   
+    <h1>listas lista não ordenada</h1>
+
+    <ul><!--faz uma lista não ordenada-->
+        <li>Item 1</li><!--adiciona itens na lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <hr><!--quebra uma linha e passa um traço-->
+    
+    <h1>listas lista ordenada</h1><!--faz uma lista ordenada e numerada mas não ordena em formas crescente ou decrescente -->
+    <ol>
+        <li>Item 1</li><!--adiciona itens na lista-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h1>Links</h1><!--cria link dentro da pagina para redirecionar a uma página.-->
+    <a href="colocar endereço ou caminho..." 
+    target="_blank"><!--faz com que, quando o usuario clicar no link, ele seja redirecionado a outra aba -->
+    Link</a><!--uma mascara para o link-->
+
+    <h1>Imagem</h1>
+    <!--adiciona imagina a pagina apenas passando o caminho da imagem-->
+    <img src="https://imgs.search.brave.com/8ji5tE58Be-Pm1tTEDYRG-CMJgNMkXuxkXPek2v4j0g/rs:fit:461:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/cWNQc2tWZFRySnFm/aFotWjQ5QXRRSGFI/biZwaWQ9QXBp"
+    width="200" 
+    height="200"
+    alt="logo do HTML5">
+    <!--wihth - largura da imagem
+        height - tamanho da imagem
+        alt - uma descrição da imagem para pessoas deficientes visual ou quando a imagem não for carregada-->
+
+    <h1>Formulário</h1>
+    <form><!--adiciona um formulário na página-->
+        <label> Input de texto</label><!--cria uma caixa de input-->
+        <br>
+        <input type="text" placeholder="Nome"> <!--input type - define qual tipo de input vai receber
+                                                   placeholder - é uma mascara que serve para dizer ao usuario o que digitar.EX: exemple@gmail.com -->
+
+        <hr>
+        <textarea >input de texto grande
+
+        </textarea><br><br>
+        <!--input de texto grande-->
+        <select ><!--faz um form multiplas escolhas -->
+            <option >Escolha....</option><!--opções da caixinha-->
+            <option >Item 1</option>
+            <option >Item 2</option>
+        </select>
+
+        <button>Enviar</button><!--Cria uma botão para selecionar ou enviar algo-->
+    </form>
+
+</body>
+</html>
